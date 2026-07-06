@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Ledger — AI Chat</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Libre+Baskerville:ital,wght@0,400;0,700;1,400&family=IBM+Plex+Mono:wght@400;500;600&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="chat.css">
+<!-- Puter.js: free client-side AI API, no key management, backed by OpenAI models (not Google/Claude) -->
+<script src="https://js.puter.com/v2/"></script>
+</head>
+<body>
+
+<div class="ledger-book">
+  <div class="ledger-header">
+    <div class="ledger-title">LEDGER <small>Vol. I</small></div>
+    <div class="ledger-sub">Account of Record</div>
+  </div>
+
+  <div class="page">
+    <div class="entries" id="entries"></div>
+  </div>
+
+  <div class="ledger-footer">
+    <input id="input" type="text" placeholder="Enter a new line item…" autocomplete="off">
+    <button id="send">Post Entry</button>
+  </div>
+  <div class="balance-line">
+    <span>ENTRIES POSTED: <b id="entryCount">0</b></span>
+    <span>LEDGER: <b>OPEN</b></span>
+  </div>
+</div>
+
+<script src="chat.js"></script>
+</body>
+</html>
