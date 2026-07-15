@@ -42,4 +42,4 @@ No installation needed. Just open `index.html` in any modern browser:
 ## Notes
 
 - This is a front-end-only demo — there is no backend, database, or persistence. Chat history resets on page reload.
-- Not affiliated with Google or Claude/Anthropic APIs by design; the underlying model is OpenAI-based via Puter.js.
+- Not affiliated with Google or Claude/Anthropic APIs by design; the underlying model is OpenAI based via Puter.js.
